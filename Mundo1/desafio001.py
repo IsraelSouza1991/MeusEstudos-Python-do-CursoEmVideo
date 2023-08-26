@@ -1,0 +1,5 @@
+print('\033[7:30:45mOlá. Vou lhe fazer algumas perguntas. Me responda em número...\033[0:0:0m')
+dia = int(input('Em qual dia você nasceu? '))
+mes = int(input('e em qual mês? '))
+ano = int(input('diga também o ano em que nasceu. '))
+print('Então você nasceu em {} / {} / {}: '.format(dia,mes,ano))
