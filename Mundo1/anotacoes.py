@@ -3,6 +3,7 @@
 
 
 n_int = int(input('Escreva um número inteiro:'))
+
     #int para números inteiros.
 
 n_float = float(input("Escreva um número com ponto:"))
@@ -35,7 +36,7 @@ s = n1 + n2
 m = n1 * n2
 d = n1 / n2
 di = n1 // n2
-e = pow(n1,n2)
+e = pow(n1, n2)
 print('A soma de {} com {} é {}!'.format(n1, n2, s))
 print('A multiplicação entre {} e {} é {}'.format(n1, n2, m))
 print('A divisão de {} por {} é igual a {:.3f}'.format(n1, n2, d)) # resultado com 3 casas decimais
